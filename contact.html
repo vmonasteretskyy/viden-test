@@ -161,12 +161,12 @@
                         </div>
                         <div class="input-block">
                             <label for="">How can we help you?</label>
-                            <!-- <select name="" id="select-style">
+                            <select name="" id="select-style">
                                 <option value="">- select one</option>
                                 <option value="">Title 1</option>
                                 <option value="">Title 2</option>
                                 <option value="">Title 3</option>
-                            </select> -->
+                            </select>
                         </div>
                         <p>By clicking submit, you consent to us sending you the communications requested above in
                             accordance with our <a href="">privacy policy</a></p>
@@ -193,13 +193,20 @@
 
     </main>
 
+    <style>
+        @media(max-width:991.8px) {
+            .contact-body .get-in form .input-block {
+                display: block;
+                text-align: left;
+            }
 
-    <select name="" id="select-style">
-        <option value="">- select one</option>
-        <option value="">Title 1</option>
-        <option value="">Title 2</option>
-        <option value="">Title 3</option>
-    </select>
+            .contact-body .get-in form .input-block label {
+                display: block;
+            }
+
+        }
+    </style>
+
 
     <footer>
         <div class="footer-line"></div>
