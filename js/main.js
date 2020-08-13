@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     (function ($) {
         $(function () {
-            $('#select-style').styler();
+            $('.select-style').styler();
         });
     })(jQuery);
 });
